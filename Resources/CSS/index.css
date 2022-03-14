@@ -114,3 +114,10 @@ label {
       width: 50px;
       margin-left: 30rem;
   }
+
+  @media only screen and (max-width: 480px) {
+      #stickpic
+      {
+          width: 50%;
+      }
+  }
