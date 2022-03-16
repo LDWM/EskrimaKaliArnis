@@ -98,7 +98,9 @@ video{
 
 form {
     display: block;
+    text-align: center;
     justify-content: center;
+    overflow: auto;
 }
 
 label {
@@ -111,7 +113,6 @@ label {
 input {
     padding: 5px 10px;
 }
-
 #sitckpic {
     height: 50%;
     width: 50%;
