@@ -56,10 +56,14 @@ li {
 
 #btn1:hover, #btn2:hover, #btn3:hover {
     background-color: red;
+    background: linear-gradient(#621d1d, #e90707);
     color: black;
     border-radius: 15px;
-    border: 2px solid red;
-    padding: 0.3rem;
+    border: 2px transparent red;
+    padding: 0.5rem;
+    box-shadow: 0px 3px;
+    text-decoration: none;
+    text-shadow: 0 -2px rgb(95, 101, 105);
 }
 
 .a {
