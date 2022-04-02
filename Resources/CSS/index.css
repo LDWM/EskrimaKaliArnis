@@ -151,10 +151,10 @@ input {
     padding: 5px 10px;
 }
 
-#sitckpic {
+#stickpic {
     height: 50%;
     width: 50%;
-  }
+}
 
 #armourpic {
     height: 40%;
@@ -190,7 +190,7 @@ footer {
       {
           width: 40%;
       }
-  }
+}
 
 @media only screen and (max-width: 480px) {
       .form
