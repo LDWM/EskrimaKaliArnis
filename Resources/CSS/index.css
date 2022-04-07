@@ -196,11 +196,14 @@ footer {
 .smallpic {
     height: 12%;
     width: 12%;
+    padding-left: 0rem;
+    margin-left: 0rem;
 }
 
 .copyright {
     font-size: 0.7em;
     flex-wrap: wrap;
+    padding-left: 0rem;
 }
 
 
