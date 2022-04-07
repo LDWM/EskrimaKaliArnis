@@ -206,6 +206,11 @@ footer {
     padding-left: 0rem;
 }
 
+span {
+    font-weight: bold;
+    color: blue;
+}
+
 
 @media only screen and (max-width: 480px) {
       #stickpic
