@@ -184,6 +184,25 @@ footer {
     color: blue;
 }
 
+.links {
+    margin-left: 5rem !important;
+}
+
+#linkheading {
+    padding-left: 0px !important;
+    text-decoration: underline;
+}
+
+.smallpic {
+    height: 12%;
+    width: 12%;
+}
+
+.copyright {
+    font-size: 0.7em;
+    flex-wrap: wrap;
+}
+
 
 @media only screen and (max-width: 480px) {
       #stickpic
