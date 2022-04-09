@@ -246,6 +246,13 @@ footer {
     padding-left: 0rem;
 }
 
+.copyright2 {
+    font-size: 0.7em;
+    flex-wrap: wrap;
+    padding-left: 0rem;
+    margin-top: -1.5rem;
+}
+
 span {
     font-weight: bold;
     color: blue;
