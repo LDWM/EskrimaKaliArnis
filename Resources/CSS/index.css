@@ -39,6 +39,11 @@ h1 {
     padding-top: 2rem;
 }
 
+#warriorslogo {
+    height: 15%;
+    width: 15%;
+}
+
 #test {
     color: yellow;
 }
