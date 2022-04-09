@@ -97,8 +97,8 @@ h1 {
 @media only screen and (max-width: 480px) {
     #warriorslogo
   {
-      width: 15%;
-      height: 15%;
+      width: 10%;
+      height: 10%;
       margin-top: -3rem;
   }
 }
