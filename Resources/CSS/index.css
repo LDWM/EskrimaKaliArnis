@@ -20,31 +20,15 @@ body {
 content {
     padding: 0rem 5% 0rem 5%;  
 }
-
 header {
     padding-top: 0.5rem;
     padding-bottom: 0.2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     font-weight: bold;
     background-color: black;
     color: red;
     height:100%;
-    width: 100%;
     margin:0;
-    text-align: center;
-    z-index: 1;
-}
-
-.header::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-header h1, h2 {
-    z-index: 2;
 }
 
 h1 {
