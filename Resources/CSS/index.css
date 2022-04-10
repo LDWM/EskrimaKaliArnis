@@ -46,6 +46,14 @@ h1 {
     margin-bottom: 0rem;
 }
 
+@media only screen and (max-width: 720px) {
+    #warriorslogo
+  {
+      height: 50%;
+      width: 50%;
+    }
+}
+
 #test {
     color: yellow;
 }
