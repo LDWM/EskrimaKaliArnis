@@ -39,6 +39,10 @@ h1 {
     padding-top: 1rem;
 }
 
+header h1 {
+    text-shadow: 0px 3px #444343;
+}
+
 #warriorslogo {
     height: 17%;
     width: 17%;
