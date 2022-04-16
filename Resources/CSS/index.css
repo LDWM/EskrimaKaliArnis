@@ -127,6 +127,49 @@ li {
     text-shadow: 0 -2px rgb(95, 101, 105);
 }
 
+.navbtns ul li.dropdown ul a {
+    position: relative;
+    left: 0;
+    padding: 0rem;
+    min-width: 1rem;
+}
+
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    opacity: 90%;
+    margin-top: 0.2rem;
+    width: 9.5rem;
+    text-align: left;
+    padding: -1rem;
+}
+
+nav ul li:hover ul {
+    display: block;
+    color: red;
+    padding: 0rem;
+    margin-top: 0rem;
+}
+
+#btn4, #btn5, #btn6{
+    color: red !important;
+    background-color: black !important;
+}
+
+#btn4:hover, #btn5:hover, #btn6:hover {
+    background-color: red !important;
+    background: linear-gradient(#621d1d, #e90707);
+    border-radius: 15px;
+    padding: 0.3rem !important;
+    color: black !important;
+    text-decoration: none;
+}
+
+.dropdown {
+    padding: 0rem !important;
+}
+
 #emblem {
     height: 12%;
     width: 12%;
