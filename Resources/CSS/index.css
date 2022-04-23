@@ -65,11 +65,11 @@ header h2 {
     color: yellow;
 }
 
-p, h1, h2, h3 {
+p, h1, h2, h3, h4, h5 {
     padding: 0.5rem 2rem 0.5rem 2rem;
 }
 
-h2, h3 {
+h2, h3, h4, h5 {
     font-family: sans-serif;
     text-transform: uppercase;
     color:#4c5257;
@@ -312,4 +312,9 @@ span {
 
 .linkdescrip {
     padding-left: 0rem;
+}
+
+.trophypics {
+    height: auto;
+    width: 30%;
 }
