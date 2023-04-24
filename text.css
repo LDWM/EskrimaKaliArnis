@@ -141,9 +141,10 @@ li {
 .video{
     width: 40%;
     height: 40%;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    justify-content: center;
+    margin: auto auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #contact {
