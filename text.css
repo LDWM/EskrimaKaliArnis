@@ -270,3 +270,7 @@ nav ul li:hover ul {
 .dropdown {
     padding: 0rem !important;
 }
+
+#new {
+    text-align: center;
+}
