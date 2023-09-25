@@ -15,3 +15,8 @@ if (hourNow > 18) {
 var el = document.getElementById('new');
 el.innerHTML = '<h2>' + greeting + '</h2>';
 document.getElementById('new').getAttribute('class');
+
+
+$(document).ready(function(){
+    $('#fmaheading').fadeIn('slow');
+});
