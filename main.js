@@ -1,5 +1,6 @@
 $(document).ready(function(){
     $('#fmaheading').fadeIn('slow');
+    $('.#emblem').fadeIn('slow');
 });
 
 
