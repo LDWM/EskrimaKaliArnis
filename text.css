@@ -112,6 +112,7 @@ li {
     height: 12%;
     width: 12%;
     float: right;
+    display: none;
 }
 
 .container{
