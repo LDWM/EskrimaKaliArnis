@@ -1,8 +1,3 @@
-$(document).ready(function(){
-    $('#fmaheading').fadeIn('slow');
-    $('.#emblem').fadeIn('slow');
-});
-
 
 var today = new Date();
 var hourNow = today.getHours();
