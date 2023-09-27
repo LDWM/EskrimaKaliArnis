@@ -1,6 +1,6 @@
 $(document).ready(function(){
-    $('#fmaheading').fadeIn('slow');
-    $('.#emblem').fadeIn('slow');
+    $('.fmaheading').fadeIn('slow');
+    $('.emblem').fadeIn('slow');
 
 
 var today = new Date();
