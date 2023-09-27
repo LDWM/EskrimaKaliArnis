@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $('#emblem').fadeIn('slow');
-
+});
 
 var today = new Date();
 var hourNow = today.getHours();
@@ -19,4 +19,3 @@ if (hourNow > 18) {
 var el = document.getElementById('new');
 el.innerHTML = '<h2>' + greeting + '</h2>';
 document.getElementById('new').getAttribute('class');
-});
