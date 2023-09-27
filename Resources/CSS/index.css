@@ -174,7 +174,7 @@ nav ul li:hover ul {
     height: 12%;
     width: 12%;
     float: right;
-    display: none;
+    display: none !important;
 }
 
 .container{
