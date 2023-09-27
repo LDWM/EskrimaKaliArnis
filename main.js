@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('#fmaheading').fadeIn('slow');
+    $('#warriorslogo').fadeIn('slow');
     $('#emblem').fadeIn('slow');
 
 
