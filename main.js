@@ -1,5 +1,4 @@
 $(document).ready(function(){
-    $('#warriorslogo').fadeIn('slow');
     $('#emblem').fadeIn('slow');
 
 
