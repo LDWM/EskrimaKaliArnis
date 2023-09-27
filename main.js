@@ -17,7 +17,6 @@ if (hourNow > 18) {
     greeting = 'Welcome';
 };
 
-var el = document.getElementById('new');
-var itemContent = el.innerHTML;
-el.innerHTML = '<h2>' + greeting + itemContent + '</h2>';
+document.getElementById('new').innerHTML = '<h2>' + greeting + '</h2>';
+
 
