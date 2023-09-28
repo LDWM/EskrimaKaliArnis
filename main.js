@@ -1,5 +1,5 @@
 $(document).ready(() => {
-    $('#emblem').fadeIn(1000);
+    $('#emblem').fadeIn('slow');
 });
 
 
