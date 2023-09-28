@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $('#emblem').fadeIn('slow');
-});
+
 
 
 var today = new Date();
@@ -16,7 +16,8 @@ if (hourNow > 18) {
 } else {
     greeting = 'Welcome';
 }
-var newpara = document.getElementById("new");
-newpara.innerHTML = greeting;
+    
+document.getElementById("new").innerHTML = greeting;
 
+});
 
