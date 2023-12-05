@@ -104,6 +104,7 @@ li {
     list-style-type: disc;
     justify-content: left;
     font-size: 1rem;
+    box-sizing:border-box;
 }
 
 #btn1, #btn2, #btn3 {
