@@ -103,6 +103,7 @@ li {
     color: black;
     list-style-type: disc;
     justify-content: left;
+    font-size: 1rem;
 }
 
 #btn1, #btn2, #btn3 {
