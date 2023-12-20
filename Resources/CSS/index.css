@@ -329,7 +329,13 @@ span {
     padding-left: 0rem;
 }
 
+#trophiesdiv {
+    display: flex;
+    justify-content: center;
+}
+
 .trophypics {
     height: auto;
-    width: 30%;
+    width: 25%;
+    display: inline-flex;
 }
