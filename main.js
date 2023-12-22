@@ -1,6 +1,6 @@
 $(document).ready(() => {
-    $('#emblem').fadeIn('slow');
-    $('#warriorslogo').fadeIn('slow');
+    $('#emblem').fadeIn({easing: "linear"}, 2000);
+    $('#warriorslogo').fadeIn({easing: "linear"}, 2000);
 });
 
 
