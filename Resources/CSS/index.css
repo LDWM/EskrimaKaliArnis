@@ -340,3 +340,11 @@ span {
     width: 25%;
     display: inline-flex;
 }
+
+#fmaHeading {
+    display: none;
+}
+
+#EKAHeading{
+    display: none;
+}
