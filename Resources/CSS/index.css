@@ -333,6 +333,8 @@ span {
     display: flex;
     justify-content: center;
     width: 100%;
+    margin: 1rem auto;
+    margin-bottom: 2rem;
 }
 
 .trophypics {
@@ -345,6 +347,7 @@ span {
     #trophiesdiv
   {
       margin: auto;
+      margin-bottom: 1rem;
       max-width: 100%;
   }
   .trophypics 
