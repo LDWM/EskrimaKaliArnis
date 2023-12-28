@@ -17,7 +17,7 @@ body {
     max-width:100%;
 }
 
-content {
+main {
     padding: 0rem 5% 0rem 5%;  
 }
 
@@ -204,6 +204,10 @@ nav ul li:hover ul {
 #weapons {
     height: 30%;
     width: 30%;
+}
+
+#weaponpicssection {
+    padding: 0rem 5% 0rem 5%;  
 }
 
 .smallpiccontainer {
