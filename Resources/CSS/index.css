@@ -319,21 +319,6 @@ span {
     color: blue;
 }
 
-
-@media only screen and (max-width: 480px) {
-      #stickpic
-      {
-          width: 40%;
-      }
-}
-
-@media only screen and (max-width: 480px) {
-      .form
-    {
-        width: 50%;
-    }
-}
-
 .linkdescrip {
     padding-left: 0rem;
 }
@@ -354,19 +339,36 @@ span {
 }
 
 @media only screen and (max-width: 480px) {
+    h1 
+    {
+        font-size: 2rem;
+    }
+    
+    .form
+    {
+        width: 50%;
+    }
+    
+    #stickpic
+    {
+        width: 40%;
+    }
+    
     #trophiesdiv
-  {
+    {
       margin: auto;
       margin-bottom: 1rem;
       max-width: 100%;
-  }
+    }
+    
   .trophypics 
-  {
+    {
     margin: auto;
     width: 100px;
     height: 75px;
-  }
+    }
 }
+
 
 #FMAHeading {
     display: none;
