@@ -150,6 +150,9 @@ li {
     min-width: 1rem;
 }
 
+.navbtns{
+    margin-bottom: 0.5rem;
+}
 
 nav ul li ul {
     display: none;
