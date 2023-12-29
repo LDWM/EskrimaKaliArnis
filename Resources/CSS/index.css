@@ -404,3 +404,11 @@ span {
 #EKAHeading{
     display: none;
 }
+
+#querylabel {
+    vertical-align: top;
+}
+
+#query{
+    padding: 5px 10px;
+}
