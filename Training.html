@@ -1,92 +1,129 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="keywords" content="Escrima, Arnis, Kali, Eskrima, FMA, Filipino Martial Arts">
-        <meta name="description" content="Webpage dedicated to the martial arts of the Philippines, Filipino martial arts, Escrima, Kali, Arnis">
-        <meta name="google-site-verification" content="ahHrixFNV0mdyG4RVpJOMAxZ3F_piP45ji-QbbMZEx8" />
-        <title>Filipino Martial Arts</title>
-        <link href="Resources/CSS/index.css" type="text/css" rel="stylesheet">
-        <link rel="shortcut icon" href="./Resources/Images/favicon.ico" type="image/x-icon">
-        <link rel="icon" href="./Resources/Images/favicon.ico" type="image/x-icon"> 
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap">
-        <link rel="stylesheet" href="./jquery-ui-1.13.2.custom/jquery-ui.min.css">
-        <script src="./jquery-ui-1.13.2.custom/external/jquery/jquery.js"></script>
-        <script src="./jquery-ui-1.13.2.custom/jquery-ui.js"></script>
-    </head>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <body>
-        <header>
-            <div>
-                <img id="warriorslogo" src="./Resources/Images/Warriorslogo.png" title="Warrios Eskrima Logo (Copyright)">
-            </div>
-            <div class="heading">
-                <h1 id="FMAHeading">Filipino Martial Arts</h1>
-                <h2 id="EKAHeading">Eskrima - Kali - Arnis</h2>
-            </div>
-        </header>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
+    <title>Eskrima Kali Arnis</title>
+  </head>
+  <body>
 
-        <nav class="navbtns">
-            <ul>
-                <li><a id="btn1" href="./index.html" btn-home>Home</a></li>
-                <li><a id="btn2" href="./About.html" btn-about>About</a>
-                    <ul>
-                        <li class="dropdown"><a id="btn4" href="./About.html" btn-about>About</a></li>
-                        <li class="dropdown"><a id="btn5" href="./Training.html" btn-about>Training</a></li>
-                        <li class="dropdown"><a id="btn6" href="./Resources.html" btn-about>Resources</a></li>
-                    </ul>
-                </li>
-                <li><a id="btn3" href="./Contact.html" btn-contact>Contact</a></li>
-            </ul>
-        </nav>
+    <h1 class="display-2 ml-3">Eskrima Kali Arnis 2.0</h1>
 
-        <main>
-        <div class="P1">
-            <p class="copyright2">All Warriors Eskrima logos and images are copyrighted and are reproduced with permission.</p>
-            <i class="fa fa-favicon"></i>
-            <img id="emblem" src="./Resources/Images/emblem.jpg" alt="Esrima Logo">
-            <a id="btnmain" href="./Contact.html" btn-main>Get Involved!</a>
-            <h3>Filipino Martial Arts: Eskrima, Kali, Arnis</h3>
+    <nav class="navbar-light bg-light navbar navbar-expand-sm">
+        <!-- Add the <a> below: -->
+        <a class="navbar-brand ml-2"><img src="./images/Warriorslogo.png" alt="Warriors Eskrima Logo" height="50"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Make the follow elements into a nav component: -->
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a href="./index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                About
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="./about.html">About</a>
+                <a class="dropdown-item" href="./instructor.html">Instructor</a>
+                <a class="dropdown-item" href="#">Training<span class="sr-only">(current)</span></a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="./resources.html">Resources</a>
+              </div>
+            </li>
+            <li class="nav-item">
+                <a href="./contact.html" class="nav-link">Contact</a>
+              </li>
+          </ul>
         </div>
-        <br/>
+      </nav>
 
-        <div class="links">
-            <h3 id="linkheading">Links</h3>
-            <a href="http://www.warriorseskrima.com/">IFMA Warriors Eskrima website</a>
-            <br/><br/>
+    <div class="jumbotron jumbotron-fluid py-5">
+        <div class="container">
+          <h1 class="display-4">Training</h1>
+          <p class="lead">Training in the Filipino martial arts of Eskrima, Kali, and Arnis.</p>
         </div>
+    </div>
 
-        <div>
-            <h3>Train with Leigh</h3>
-            <h5>Kasama Guro (Associate Instructor) and a British, European, and World Champion</h5>
-            <p>Email: <a href="mailto:medway.fma@gmail.com">medway.fma@gmail.com</a></p>
-            <p>Over 20 years of experience in martial arts</p>
-            <p>Trained under Grandmasters in the Philippines</p>
-            <ul id="titles">
-                <li>3 x World Champion</li>
-                <li>5 x European Champion</li>
-                <li>6 x British Champion</li>
-            </ul>
+    <a class="btn btn-primary mx-3 mb-3" href="mailto:medwayfma@gmail.com" role="button">Train Eskrima</a>
+
+    <div class="mx-5 pb-3">
+        <h5>Training in the Filipino Martial Arts</h5>
+    </div>
+
+    <div class="mx-5 pb-3">
+      <p>Training in the Filipino martial arts is beneficial for health and fitness, and quickly builds skills for combat and self defence. It has the added benefit of being less physically intensive on joints and bones than many other martial arts. With a focus on realistic skill development with less reliance on purely physical fitness it is suitable for all ages and levels of fitness with no prior experience needed.</p>
+    </div>
+
+    <div class="mx-5 pb-3">
+      <h6>Benefits of Training in Eskrima</h6>
+      <ul>
+          <li>Self Defence</li>
+          <li>Skill Development</li>
+          <li>Physical Fitness</li>
+          <li>Improved Confidence</li>
+          <li>Stress Relief</li>
+          <li>Better Coordination</li>
+          <li>Build Self Discipline</li>
+          <li>Socialising</li>
+          <li>Enhanced Concentration and Focus</li>
+      </ul>
+    </div>
+
+    <div class="text-center mt-3">
+      <a class=""><img src="./images/Stick and dagger small.jpg" alt="Warriors Eskrima Logo" height="300"></a>
+      <figcaption class="figure-caption">Stick and Dagger training with Grandmaster Cano Canete in the Phillipines</figcaption>
+    </div>
+
+    <div class="container text-center mt-3">
+      <h4 class="mb-3">Aspects of Escrima Training</h4>
+      <div class="row align-items-start">
+        <div class="col">
+          <h6>Solo Training</h6>
+          <p>Karenza or shadow fighting.</p>
+          <p>Footwork Drills.</p>
+          <p>Awareness</p>
         </div>
-
-        <div id="trophiesdiv">
-            <img class="trophypics" src="./Resources/Images/Trophies1.jpg" title="British Championship Trophies and Medals">
-            <img class="trophypics" src="./Resources/Images/worldsmedals.png" title="World Championship Medals">
-            <img class="trophypics" src="./Resources/Images/EuropeanTrophies.jpg" title="European Championship Trophies">
+        <div class="col">
+          <h6>Partner Training</h6>
+            <p>Flow Drills.</p>
+            <p>Partner work.</p>
+            <p>Sparring.</p>
+            <p>Mutiple Opponent Training.</p>
         </div>
+        <div class="col">
+          <h6>Training with Equipment</h6>
+            <p>Bag/Tire hitting.</p>
+        </div>
+      </div>
+    </div>
 
-        </main>
+    <div class="contact mx-5">
+        <h4 class="contactheading">Email:</h4>
+        <a href="mailto:medwayfma@gmail.com" title="Email"><img id="emaillogo" src="./images/Email_IconSml.png" alt="Email Logo" class=""></a>
+        <p id="emaillink"><a href="mailto:medwayfma@gmail.com">Send email</a></p>
+    </div>
 
-        <footer>
-            <div class="container">
-                <img id="escrimaman" src="./Resources/Images/escrima.jpg" alt="An eskrimador"/>
-                <p>&copy; Filipino Martial Arts</p>
-            </div>
-        </footer>
-        
-        <script type="text/javascript" src="main.js"></script>
-    </body>
+    <footer class="card-footer bg-light text-center">
+      <div>
+        <p><small>&copy; Filipino Martial Arts - All Warriors Eskrima logos and images are copyrighted and are reproduced with permission.</small></p>
+      </div>
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </body>
 </html>
