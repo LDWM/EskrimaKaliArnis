@@ -1,96 +1,110 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="keywords" content="Escrima, Arnis, Kali, Eskrima, FMA, Filipino Martial Arts">
-        <meta name="description" content="Webpage dedicated to the martial arts of the Philippines, Filipino martial arts, Escrima, Kali, Arnis">
-        <meta name="google-site-verification" content="ahHrixFNV0mdyG4RVpJOMAxZ3F_piP45ji-QbbMZEx8" />
-        <title>Filipino Martial Arts</title>
-        <link href="Resources/CSS/index.css" type="text/css" rel="stylesheet">
-        <link rel="shortcut icon" href="./Resources/Images/favicon.ico" type="image/x-icon">
-        <link rel="icon" href="./Resources/Images/favicon.ico" type="image/x-icon"> 
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap">
-        <link rel="stylesheet" href="./jquery-ui-1.13.2.custom/jquery-ui.min.css">
-        <script src="./jquery-ui-1.13.2.custom/external/jquery/jquery.js"></script>
-        <script src="./jquery-ui-1.13.2.custom/jquery-ui.js"></script>
-    </head>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <body>
-        <header>
-            <div>
-                <img id="warriorslogo" src="./Resources/Images/Warriorslogo.png" title="Warrios Eskrima Logo (Copyright)">
-            </div>
-            <div class="heading">
-                <h1 id="FMAHeading">Filipino Martial Arts</h1>
-                <h2 id="EKAHeading">Eskrima - Kali - Arnis</h2>
-            </div>
-        </header>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
+    <title>Eskrima Kali Arnis</title>
+  </head>
+  <body>
 
-        <nav class="navbtns">
-            <ul>
-                <li><a id="btn1" href="./index.html" btn-home>Home</a></li>
-                <li><a id="btn2" href="./About.html" btn-about>About</a>
-                    <ul>
-                        <li class="dropdown"><a id="btn4" href="./About.html" btn-about>About</a></li>
-                        <li class="dropdown"><a id="btn5" href="./Training.html" btn-about>Training</a></li>
-                        <li class="dropdown"><a id="btn6" href="#" btn-about>Resources</a></li>
-                    </ul>
-                </li>
-                <li><a id="btn3" href="./Contact.html" btn-contact>Contact</a></li>
-            </ul>
-        </nav>
+    <h1 class="display-2 ml-3">Eskrima Kali Arnis</h1>
 
-        <main>
-        <div class="P1">
-            <p class="copyright2">All Warriors Eskrima logos and images are copyrighted and are reproduced with permission.</p>
-            <i class="fa fa-favicon"></i>
-            <img id="emblem" src="./Resources/Images/emblem.jpg" alt="Esrima Logo">
-            <a id="btnmain" href="./Contact.html" btn-main>Get Involved!</a>
-            <h3>Filipino Martial Arts: Eskrima, Kali, Arnis</h3>
-        </div>
-        <br/>
-
-        <div class="links">
-            <h3 id="linkheading">Links</h3>
-            <a href="http://www.warriorseskrima.com/">IFMA Warriors Eskrima website</a>
-            <br/><br/>
-            <a href="http://www.warriorseskrima.com/"><img class="smallpic" src="Resources/Images/warriors-logo-peque.jpg"></a>
-            <p class="linkdescrip">Official website of the Institute of Filipino Martial Arts and Warriors Eskrima.</p>
-            <p class="copyright">All Warriors Eskrima logos and images are copyrighted and are reproduced with permission.</p>
-            <br/><br/>
-            <a href="https://worldsportarnis.com/">World Sport Arnis</a>
-            <br/><br/>
-            <a href="https://worldsportarnis.com/"><img class="smallpic" src="./Resources/Images/World Sport Arnis Logo.png"></a>
-            <p class="linkdescrip">World Sport Arnis website - See for competitions, events, and sticks.</p>
-            <br/><br/>
-            <a href="https://www.wekafgb.co.uk/blog">WEKAF GB</a>
-            <br/><br/>
-            <a href="https://www.wekafgb.co.uk/blog"><img class="smallpic" src="./Resources/Images/WEKAF GB logo Website.png"></a>
-            <br/><br/>
-            <p class="linkdescrip">The website for the Great Britain World Eskrima Kali Arnis Federation.</p>
-        
-        </div>
-
-        <div>
-        </br>
-            <h3>Recommended Reading:</h3>
-            <p>To be updated.</p>
-        </div>
-
+    <nav class="navbar-light bg-light navbar navbar-expand-sm">
+        <!-- Add the <a> below: -->
+        <a class="navbar-brand ml-2"><img src="./images/Warriorslogo.png" alt="Warriors Eskrima Logo" height="50"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
     
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Make the follow elements into a nav component: -->
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a href="./index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                About
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="./about.html">About</a>
+                <a class="dropdown-item" href="./training.html">Training</a>
+                <a class="dropdown-item" href="./instructor.html">Instructor</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="./resources.html">Resources</a>
+              </div>
+            </li>
+            <li class="nav-item">
+                <a href="./contact.html" class="nav-link">Contact<span class="sr-only">(current)</span></a>
+              </li>
+          </ul>
+        </div>
+      </nav>
 
-        </main>
+    <div class="jumbotron jumbotron-fluid py-5">
+        <div class="container">
+          <h1 class="display-4">Resources</h1>
+          <p class="lead">Resources and links regarding the Filipino martial arts of Eskrima, Kali, and Arnis.</p>
+        </div>
+    </div>
 
-        <footer>
-            <div class="container">
-                <img id="escrimaman" src="./Resources/Images/escrima.jpg" alt="An eskrimador"/>
-                <p>&copy; Filipino Martial Arts</p>
+    <div class="container px-lg-5 mb-3">
+        <div class="row mx-lg-n5 justify-content-around">
+            <div class="card mb-3" style="width: 18rem;">
+                <a href="http://www.warriorseskrima.com/"><img class="w-100" src="./images/warriors-logo-peque.jpg" class="card-img-top h-50" alt="..."></a>
+                <div class="card-body">
+                <h5 class="card-title">IFMA website</h5>
+                <p class="card-text h-50">Official website of the Institute of Filipino Martial Arts and Warriors Eskrima.</p>
+                <a href="#" class="btn btn-primary">IFMA Website</a>    
             </div>
-        </footer>
-        
-        <script type="text/javascript" src="main.js"></script>
-    </body>
+            </div>
+
+            <div class="card mb-3" style="width: 18rem;">
+                <a href="https://worldsportarnis.com/"><img class="w-100" src="./images/World Sport Arnis Logo (1).png" class="card-img-top h-50" alt="..."></a>
+                <div class="card-body">
+                <h5 class="card-title">World Sport Arnis</h5>
+                <p class="card-text h-50">World Sport Arnis website - See for competitions, events, and sticks.</p>
+                <a href="#" class="btn btn-primary">WSA Website</a>    
+                </div>
+            </div>
+
+            <div class="card mb-3" style="width: 18rem;">
+              <a href="https://www.wekafgb.co.uk/blog"><img class="w-100" src="./images/WEKAF GB logo Website (1).png" class="card-img-top h-50" alt="..."></a>
+              <div class="card-body">
+              <h5 class="card-title">WEKAF GB</h5>
+              <p class="card-text h-50">The website for the Great Britain World Eskrima Kali Arnis Federation.</p>
+              <a href="#" class="btn btn-primary">WEKAF Website</a>  
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact mx-5">
+        <h4 class="contactheading">Email:</h4>
+        <a href="mailto:medwayfma@gmail.com" title="Email"><img id="emaillogo" src="./images/Email_IconSml.png" alt="Email Logo" class=""></a>
+        <p id="emaillink"><a href="mailto:medwayfma@gmail.com">Send email</a></p>
+    </div>
+
+    <p class="fs-6 mx-5"><small>All Warriors Eskrima logos and images are copyrighted and are reproduced with permission.</small></p>
+
+
+    <footer class="card-footer bg-light text-center">
+      <div>
+        <p><small>&copy; Filipino Martial Arts - All Warriors Eskrima logos and images are copyrighted and are reproduced with permission.</small></p>
+      </div>
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </body>
 </html>
