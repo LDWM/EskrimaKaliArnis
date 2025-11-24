@@ -1,7 +1,4 @@
-User-agent: Googlebot
-Disallow: /nogooglebot/
-
 User-agent: *
-Allow: /
+Disallow:
 
 Sitemap: https://ldwm.github.io/EskrimaKaliArnis/sitemap.xml
